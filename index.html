@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crea tu código de Eventos para Google Ads - Primero Comunico</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
+</head>
+<body>
+    <h2>1. Crea tu código de eventos para Google Analytics</h2>
+    <p class="explicacion">Completa el siguiente formulario para crear tu propio evento de Google Analytics con <a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/events?hl=es-419" target="_blank">analytics.js.</a></p>
+    <h3 class="titulo">Nombre del evento <span class="opcional">(Obligatorio)</span></h3>
+    <p class="campo">
+        <input type="text" id="idEvento" class="textoCampo" placeholder="Introduce el nombre del evento, Ej. promoción o leads" size="60" />
+    </p>
+    <h3 class="titulo">Categoría <span class="opcional">(Obligatorio)</span></h3>
+    <p class="campo">
+        <input type="text" id="idCategoria" class="textoCampo" placeholder="Introduce la categoría del evento, Ej. ebook o formulario" size="60" />
+    </p>
+    <h3 class="titulo">Acción <span class="opcional">(Obligatorio)</span></h3>
+    <p class="campo">
+        <input type="text" id="idAccion" class="textoCampo" placeholder="Introduce el tipo de interacción del evento, Ej. descargar" size="60" />
+    </p>
+    <h3 class="titulo">Etiqueta <span class="opcional">(Opcional)</span></h3>
+    <p class="campo">
+        <input type="text" id="idEtiqueta" class="textoCampo" placeholder="Introduce una etiqueta para clasificar, Ej. trucos Google ads" size="60" />
+    </p>
+    <h3 class="titulo">Valor <span class="opcional">(Opcional)</span></h3>
+    <p class="campo">
+        <input type="text" id="idValor" class="textoCampo" placeholder="Introduce un valor asociado al evento, Ej 10" size="60" />
+    </p>
+    <p class="interaccion">
+        <input type="checkbox" id="idInteraccion" value="true" onclick="textoInteraccion()"> Evento sin interacción (Opcional)<br>
+    </p>
+   
+    <div id="tipoEvento">
+        <label for="selector">Tipo de evento javascript:</label>
+
+            <select id="eventSelect">
+                <option value="">--Escoge una opción--</option>
+                <option value="onclick">onclick - Hace clic en el elemento</option>
+                <option value="ondblclick">ondblclick - Hace doble clic en el elemento</option>
+                <option value="onsubmit">onsubmit - Envía los datos del formulario</option>
+                <option value="onreset">onreset - Borra los datos del formulario</option>
+                <option value="onfocus">onfocus - Selecciona el elemento</option>
+                <option value="onload">onload - la página se carga correctamente</option>
+            </select>
+    </div>        
+
+    <p id="boton"><input type="button" value="¡Crea tu código!" id="boton" /></p>
+    <br />
+    <h2>2. Copia y pega el siguiente código:</h2>
+        <p class="explicacion">¡Esto es todo! Haz clic en el botón y aparecerá tu código de eventos para Google Ads.</p>
+    <div class="resultado">
+        <p><span id="codigo"></span></p>
+        <br />
+        <span id="gracias"></span>
+    </div>
+
+    <script type="text/javascript" src="evento-google-ads-02.js"></script>
+</body>
+</html>

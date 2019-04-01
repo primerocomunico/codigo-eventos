@@ -1,0 +1,71 @@
+html {
+    background-color: #1e1e1e;
+    background-position: center;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: normal;
+    color: #d7ba7d;
+}
+
+.titulo {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    color: #9cdcfe;
+    font-weight: normal;
+}
+
+.opcional {
+    color: #b5cea8;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.explicacion {
+    color: #fff;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+#tipoEvento {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.interaccion {
+    color: #fff;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 16px;
+}
+
+.textoCampo {
+    font-size: 16px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+#boton {
+    font-size: 18px;
+    font-family: 'Anonymous Pro', monospace;
+    position: relative;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.resultado {
+    color: #fff;
+    font-family: 'Anonymous Pro', monospace;
+    color: #b5cea8;
+    font-size: 18;
+    font-weight: bold;
+}
+
+a {
+    color: #9cdcfe;
+}
